@@ -7,9 +7,13 @@ To run the code: python3 class08.py
 Basic 1 and 2: Figures
 
 Basic 3:(K-Nearest Neighbors, Logistic Regression, Bayes Inference)
+
 K-Nearest Neighbors classification
+
 Mean accuracy 0.92 
+
 Classification Report
+
               precision    recall  f1-score   support
 
            0       0.83      0.97      0.90        67
@@ -20,8 +24,11 @@ Classification Report
 weighted avg       0.93      0.92      0.92       188
 
 Logistic Regression
+
 Mean accuracy 0.97 
+
 Classification Report
+
               precision    recall  f1-score   support
 
            0       0.94      0.97      0.96        67
@@ -32,8 +39,11 @@ Classification Report
 weighted avg       0.97      0.97      0.97       188
 
 Bayes Inference
+
 Mean accuracy 0.94 
+
 Classification Report
+
               precision    recall  f1-score   support
 
            0       0.92      0.91      0.92        67
