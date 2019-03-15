@@ -17,9 +17,10 @@ plt.title('Correlation matrix')
 plt.savefig('Correlation_matrix.pdf', cmap="YlGnBu")
 
 sub_features = feature_names[np.random.randint(0,31, 3)]
-sns.pairplot(df[sub_features], kind='reg')
-plt.title('Pairplot')
+pp= sns.pairplot(df[sub_features], kind='reg')
+pp.fig.suptitle('Pairplot')
 plt.savefig('Pairplot.pdf')
+plt.close(fig=None)
 # training and testing splitting
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(data, target, test_size=0.33, random_state=42)
