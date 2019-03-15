@@ -13,10 +13,12 @@ import numpy as np
 
 df = pd.DataFrame(data, columns=feature_names)
 sns.heatmap(df.corr())
+plt.title('Correlation matrix')
 plt.savefig('Correlation_matrix.pdf', cmap="YlGnBu")
 
 sub_features = feature_names[np.random.randint(0,31, 3)]
 sns.pairplot(df[sub_features], kind='reg')
+plt.title('Pairplot')
 plt.savefig('Pairplot.pdf')
 # training and testing splitting
 from sklearn.model_selection import train_test_split
