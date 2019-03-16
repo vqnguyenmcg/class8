@@ -57,15 +57,26 @@ weighted avg       0.94      0.94      0.94       188
 REACH: Pseudocodes:
 
 Program GaussainNB
+
 	import dataset function.
+
 	import GaussianNB as GNB.
+	
 	import train_test_split.
+	
 	Split data into training data and testing data.
+	
 	Create an classifier object.
+	
 	Fit the model with training datafit.
+	
 	Predict the label on testing data.
+	
 	Compute the score with prediction and test labels.
+	
 	Print score.
+	
 	Compute classification report with testing data.
+	
 	Print Classification report.
 
